@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+    }
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color:#10c9c3;
+          }
+   
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(227, 238, 239, .9);
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left:30vw;
+}
+
+.logo{
+    margin: 30px;
+    margin-left: 10vw;
+}
+
+.nav_link{
+    margin: 30px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+}
+
+.nav_link:hover{
+    text-decoration: none;
+}
+
+.baner{
+    background-image: url('baner.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.baner_text{
+    color: grey;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    
+}
+
+.baner_text._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: all 0.8s ease 0.3s;
+}
+
+.baner_title{
+    margin-top: 300px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.baner_title._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.baner_btn{
+    padding: 15px 40px;
+    margin-bottom: 270px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.baner_btn._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: all 0.8s ease 0.6s;
+}
+
+
+._anim-show{
+    transform: translate(0px, 140%);
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+
+._anim-show._active, ._active ._anim-show{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+.about{
+    text-align: center;
+}
+
+.about_title{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.about_text{
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.about_img{
+    margin-bottom: 50px;
+}
+
+.skills{
+    background-image: url('skils.png');
+    background-size: cover;
+}
+.progress{
+    width: 40%;
+    height: 5px;
+}
+
+.progress-bar{
+    background-color: #10c9c3;
+}
+
+.skills_head{
+    padding-top: 150px;
+}
+.skills_title{
+    margin-top: 20px;
+}
+
+.skills_progress{
+    margin-bottom: 150px;
+}
+
+.numbers{
+    background-color: #10c9c3;
+}
+
+.number_item{
+    padding: 70px 0;
+    color: white;
+}
+.work{
+    background-color: #fff;
+}
+
+.work_img{
+    width: 100%;
+}
+
+.work_img:after{
+    content: '&#128065;';
+      
+    
+}
+
+.work_img:hover{
+    position: relative;
+    opacity:0.3;
+    -moz-opacity:0.3;
+    filter: alpha(opacity=10) black;
+    -khtml-opacity: 0.3;
+    background-color:#000;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.col-3{
+    margin: 0;
+    padding: 0;
+}
+
+.zatem:hover{
+    position: relative;
+    background-image: url('zatem.png');
+    background-size: cover;
+    z-index: 2;
+}
+
+.work_foot{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    color: #8e8e8e;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+video{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.services{
+    background-color: #f5f5f5;
+    padding-bottom: 40px;
+}
+
+.serv_img{
+    width: 15%;
+}
+
+.serv_card{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.serv_text{
+    color: #828282;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.serv_title{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.testimonials{
+    background-color: #10c9c3;
+    text-align: center;
+    padding: 50px 0;
+    height: 400px;
+}
+
+.carousel-inner{
+    padding: 50px 0 110px 0;
+    color: #f5f5f5;
+}
+
+.client{
+    padding: 50px 0;
+}
+
+.forma{
+    background-color: #f5f5f5;
+}
+
+.form_comment{
+    height: 100px;
+}
+
+.form_btn{
+    padding: 15px 40px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+footer{
+    background-color: #141414;
+    color: #f5f5f5;
+    padding: 50px 0;
+}
+
+ul{
+    list-style-type: none;
+}
